@@ -34,7 +34,7 @@ void main() {
   print("Pengguna saat ini ${isLogin ? "telah login" : "belum login"}.");
 
   // 4. List
-  // List ini menampung beberapa nilai dalam satu variabel. 
+  // List ini menampung beberapa nilai dalam satu variable. 
   List<String> semua_buah = ["Apel", "Anggur", "Jeruk", "Semangka", "Mangga", "Pisang"];
   
   print(semua_buah);
