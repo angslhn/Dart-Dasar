@@ -64,6 +64,14 @@ String myRole(String nama, { String peran = '' }) {
   return 'Hai perkenalkan nama saya adalah $nama, dan peran saya adalah sebagai $peran!';
 }
 
+// 7. Fungsi anonymous merupakan fungsi yang tidak memiliki nama, dan biasanya di deklarasikan pada suatu variable.
+var showText = () {
+  print("Hello, world!");
+};
+
+// 8. Fungsi arrow adalah fungsi yang dapat di deklarasikan 1 baris dan otomatis mengembalikan nilai.
+var kurang = (int a, int b) => a - b; 
+
 void main() {
   // 1. Memanggil fungsi tanpa argument
   sayHelloAuthor();
@@ -84,4 +92,10 @@ void main() {
   String developer = myRole("Aang Solihin", peran: "Fullstack Developer");
 
   print(developer);
+
+  // 5. Memanggil fungsi anonymous
+  showText();
+
+  // 6. Memanggil fungsi arrow
+  showText();
 }

@@ -1,11 +1,13 @@
 // Variable
 
+// var: Untuk menyimpan semua nilai. Contoh: 'Bima', 12, 'z', true
+// const: Untuk menyimpan nilai yang tetap, dan tidak dapat berubah saat runtime.
+// final: Untuk menyimpan nilai yang dapat berubah saat runtime.
 // String: Untuk menyimpan nilai teks. Contoh: "John" [Harus dalam tanda kutip]
 // int: Untuk menyimpan nilai integer. Contoh: 10, -10, 8555 [Desimal tidak disertakan]
 // double: Untuk menyimpan nilai floating-point. Contoh: 10.0, -10.2, 85.698 [Desimal disertakan]
 // num: Untuk menyimpan semua jenis angka. Contoh: 10, 20.2, -20 [int dan double]
 // bool: Untuk menyimpan true atau false. Contoh: true, false [Hanya menyimpan nilai true atau false]
-// var: Untuk menyimpan semua nilai. Contoh: 'Bima', 12, 'z', true
 
 void main() {
   String nama_lengkap = "Aang Solihin";
