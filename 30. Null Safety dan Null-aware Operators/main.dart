@@ -5,7 +5,7 @@
 //    ??=	  Null-coalescing assignment	Assign nilai hanya jika masih null	          x ??= 10
 //    !.	  Null-assertion	            Paksa nilai tidak null (hati-hati!)	          name!
 
-void main() {
+void main(List<String> args) {
   String? name; // nullable
 
   // ?? operator
