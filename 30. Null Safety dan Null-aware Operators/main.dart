@@ -1,5 +1,5 @@
 
-// Operator	      Nama	                        Fungsi	                              Contoh
+// Operator	      Nama	                                 Fungsi	                         Contoh
 //    ??	  Null-coalescing	            Ambil nilai kiri, kalau null ambil kanan	    a ?? b
 //    ?.	  Null-aware access	          Akses properti hanya jika objek tidak null	  obj?.property
 //    ??=	  Null-coalescing assignment	Assign nilai hanya jika masih null	          x ??= 10
