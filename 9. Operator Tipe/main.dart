@@ -3,7 +3,7 @@
 // is  |   is   | Memberikan nilai boolean true jika objek adalah tipe tertentu, dan sebaliknya.
 // is! | is not | Memberikan nilai boolean true jika objek bukan tipe tertentu, dan sebaliknya.
 
-void main() {
+void main(List<String> args) {
   int angka = 10;
 
   print("Apakah variable angka adalah int = ${ angka is int }");

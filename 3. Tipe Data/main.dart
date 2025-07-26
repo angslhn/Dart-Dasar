@@ -9,7 +9,7 @@
 // 6. Sets
 // 7. Var
 
-void main() {
+void main(List<String> args) {
   // 1. Number
   // Number memiliki 3 tipe data, masing-masing ini dapat menampung nilai dari angka bulat atau desimal.
   int num1 = 100; // Tipe data untuk number yang tanpa koma.

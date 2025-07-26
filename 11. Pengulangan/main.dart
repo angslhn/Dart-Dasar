@@ -1,6 +1,6 @@
 // Pengulangan
 
-void main() {
+void main(List<String> args) {
   // for
   for (int iterationFor = 0; iterationFor < 5; iterationFor++) {
     print("Aku Sayang Kamu!");

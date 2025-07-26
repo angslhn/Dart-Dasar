@@ -1,6 +1,6 @@
 // Continue dan Break
 
-void main() {
+void main(List<String> args) {
   // Continue
   for (int i = 1; i <= 10; i++) {
     if (i % 2 != 0) {

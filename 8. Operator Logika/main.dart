@@ -4,7 +4,7 @@
 //  ||  Ini adalah 'OR',  mengembalikan true jika salah satu kondisi benar.
 //  !   Ini adalah 'NOT', mengembalikan false jika hasilnya benar dan sebaliknya.
 
-void main(){
+void main(List<String> args){
   int user_id = 123;
   int user_pin  = 456;
 

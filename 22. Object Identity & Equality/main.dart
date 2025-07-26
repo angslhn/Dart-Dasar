@@ -16,7 +16,7 @@ class Point {
   int get hashCode => Object.hash(this.x, this.y);
 }
 
-void main() {
+void main(List<String> args) {
   Point p1 = Point(x: 10, y: 20);
   Point p2 = Point(x: 10, y: 20);
   bool result1 = identical(p1, p2); // Hasil false karena berbeda alamat memori, meskipun sama persis.

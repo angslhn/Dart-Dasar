@@ -1,6 +1,6 @@
 // Pengkondisian (if, else, else if dan switch)
 
-void main() {
+void main(List<String> args) {
   String hari = "Rabu";
 
   // if statement

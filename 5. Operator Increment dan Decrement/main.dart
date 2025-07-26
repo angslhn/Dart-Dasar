@@ -5,7 +5,7 @@
 // --x	|   Pre-decrement   |	  Nilai turun dulu, lalu digunakan
 // x--	|   Post-decrement  |	  Nilai dipakai dulu, lalu turun
 
-void main() {
+void main(List<String> args) {
   int nilai = 10;
   print("Nilai pre-increment dari $nilai adalah ${++nilai}.");
 

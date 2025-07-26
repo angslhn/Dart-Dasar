@@ -6,7 +6,7 @@
 //  *=  Mengalikan nilai ke variable
 //  /=  Membagi nilai dengan variable
 
-void main() {
+void main(List<String> args) {
   double usia = 24; // Di sini angka 24 di deklarasikan ke dalam variable usia dengan tipe data double.
 
   usia+= 1; // Di sini usia+=1 berarti usia = usia + 1.

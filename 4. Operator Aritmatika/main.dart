@@ -1,6 +1,6 @@
 // Operator Aritmatika
 
-void main() {
+void main(List<String> args) {
   int angka_pertama = 25;
   int angka_kedua = 15;
 

@@ -1,5 +1,7 @@
 // Class
 
+// Class instance
+// Untuk menggunakannya, harus membuat instance terlebih dahulu dengan cara memanggil constructor class-nya.
 class ShowName {
   String? name;
 
@@ -8,7 +10,7 @@ class ShowName {
   }
 }
 
-class Kabataku {
+class KaliBagi {
   String? operator;
   int angka_pertama = 0;
   int angka_kedua = 0;
@@ -24,18 +26,20 @@ class Kabataku {
     operator = "bagi";
   }
 
-  void tambah () {
-    hasil = angka_pertama * angka_kedua;
-    operator = "tambah";
-  }
-
-  void kurang () {
-    hasil = angka_pertama * angka_kedua;
-    operator = "kurang";
-  }
-
   void show () {
     print("Hasil operasi $operator antara angka $angka_pertama dan $angka_kedua adalah $hasil");
+  }
+}
+
+// Class static
+// Class static digunakan untuk mendefinisikan anggota kelas (field atau method) yang tidak bergantung pada instance objek.
+class TambahKurang {
+  static int tambah(int a, int b) {
+    return a + b;
+  }
+
+  static int kurang(int a, int b) {
+    return a - b;
   }
 }
 
@@ -44,9 +48,13 @@ void main(List<String> args) {
   person.name = "Aang Solihin";
   person.show();
 
-  Kabataku math = Kabataku();
+  KaliBagi math = KaliBagi();
   math.angka_pertama = 10;
   math.angka_kedua = 20;
   math.kali();
   math.show();
+
+  int hasil = TambahKurang.tambah(10, 15);
+
+  print("Hasil tambah anatara 10 dan 15 adalah $hasil");
 }

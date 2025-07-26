@@ -72,7 +72,7 @@ var showText = () {
 // 8. Fungsi arrow adalah fungsi yang dapat di deklarasikan 1 baris dan otomatis mengembalikan nilai.
 var kurang = (int a, int b) => a - b; 
 
-void main() {
+void main(List<String> args) {
   // 1. Memanggil fungsi tanpa argument
   sayHelloAuthor();
 

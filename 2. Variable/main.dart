@@ -9,7 +9,7 @@
 // num: Untuk menyimpan semua jenis angka. Contoh: 10, 20.2, -20 [int dan double]
 // bool: Untuk menyimpan true atau false. Contoh: true, false [Hanya menyimpan nilai true atau false]
 
-void main() {
+void main(List<String> args) {
   String nama_lengkap = "Aang Solihin";
   String email = "angslhn@email.com";
   int usia = 19;

@@ -8,7 +8,7 @@
 // == Sama dengan
 // != Tidak sama dengan
 
-void main() {
+void main(List<String> args) {
  int angka_pertama = 10;
  int angka_kedua = 5;
 
