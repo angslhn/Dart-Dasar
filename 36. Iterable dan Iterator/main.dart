@@ -3,7 +3,7 @@
 // Iterable = koleksi yang bisa di-loop (pakai for, map, where, dll).
 // Iterator = alat untuk navigasi manual ke setiap elemen dalam iterable.
 
-void main() {
+void main(List<String> args) {
   // 1. Iterable
   Iterable<String> buah = ["apel", "jeruk", "pisang"];
 

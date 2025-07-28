@@ -22,7 +22,7 @@ void main(List<String> args) {
   print("List awal: $angka");
   print("Total dari reduce: $total");
 
-  // 4. Filter
+  // 4. Fold
   var totalMulaiDari10 = angka.fold(10, (prev, next) => prev + next); // fold(): Seperti reduce, tapi bisa menentukan nilai awal
 
   print("List awal: $angka");
